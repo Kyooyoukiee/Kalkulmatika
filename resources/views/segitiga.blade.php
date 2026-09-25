@@ -166,7 +166,7 @@
                 </svg>
 
                 <!-- Dimension Indicators -->
-                <span class="text-[11px] font-mono text-slate-500 font-semibold mt-1">alas (a)</span>
+                <span class="absolute -bottom-6 text-[11px] font-mono text-slate-500 font-semibold">alas (a)</span>
             </div>
         </div>
 
