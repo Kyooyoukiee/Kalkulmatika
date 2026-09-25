@@ -163,13 +163,13 @@
             <div class="relative flex flex-col items-center justify-center transition-transform duration-500 group-hover:scale-105 ">
                 <svg class="w-44 h-36 text-emerald-600 filter drop-shadow-xs" viewBox="0 0 100 80" fill="none">
                     <polygon points="50,10 90,70 10,70" stroke="currentColor" stroke-width="1" fill="rgba(16, 185, 129, 0.15)" stroke-linejoin="round" />
-                    <line x1="50" y1="10" x2="50" y2="70" stroke="#059669" stroke-width="2" stroke-dasharray="3,3" />
+                    <line x1="50" y1="11" x2="50" y2="70" stroke="#059669" stroke-width="1" stroke-dasharray="3,4" />
                 </svg>
 
                 <!-- Dimension Indicators -->
                 <span class="absolute -bottom-1 text-[11px] font-mono text-slate-500 font-semibold ">alas (a)</span>
 
-                <span class="absolute right-2 top-1/2 -translate-y-1/2 rotate-90 inline-block text-[11px] font-mono text-slate-500 font-semibold whitespace-nowrap">tinggi (t)</span>
+                <span class="absolute right-11 top- -translate-y-1/2 rotate-90 inline-block text-[11px] font-mono text-slate-500 font-semibold whitespace-nowrap">tinggi (t)</span>
             </div>
         </div>
 
