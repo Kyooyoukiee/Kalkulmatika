@@ -160,12 +160,12 @@
 
             <div class="h-56 bg-slate-50 rounded-2xl flex items-center justify-center border border-slate-100 relative overflow-hidden group">
                 <!-- Interactive Rectangle SVG -->
-                <div class="w-48 h-28 border-4 border-cyan-600 bg-cyan-500/10 rounded-xl flex items-center justify-center relative transition-transform duration-500 group-hover:scale-105 group-hover:rotate-1 group-hover:bg-cyan-500/15 shadow-inner">
+                <div class="w-48 h-28 border-2 border-cyan-600 bg-cyan-500/10 rounded-xl flex items-center justify-center relative transition-transform duration-500 group-hover:scale-105 group-hover:rotate-1 group-hover:bg-cyan-500/15 shadow-inner">
                     <span class="text-xs font-mono font-bold text-cyan-700">Luas (p × l)</span>
 
                     <!-- Dimension Indicators -->
-                    <span class="absolute -bottom-5 text-[11px] font-mono text-slate-500 font-semibold">panjang (p)</span>
-                    <span class="absolute -left-6 text-[11px] font-mono text-slate-500 font-semibold -rotate-90">lebar (l)</span>
+                    <span class="absolute -bottom-6 text-[11px] font-mono text-slate-500 font-semibold">panjang (p)</span>
+                    <span class="absolute -left-11 text-[11px] font-mono text-slate-500 font-semibold -rotate-90">lebar (l)</span>
                 </div>
             </div>
 

@@ -128,20 +128,20 @@
 
             <div class="h-56 bg-slate-50 rounded-2xl flex items-center justify-center border border-slate-100 relative overflow-hidden group">
                 <!-- Interactive Square SVG with Smooth Pulse Hover Animation -->
-                <div class="w-36 h-36 border-4 border-indigo-600 bg-indigo-500/10 rounded-xl flex items-center justify-center relative transition-transform duration-500 group-hover:scale-105 group-hover:rotate-2 group-hover:bg-indigo-500/15 shadow-inner">
+                <div class="w-36 h-36 border-2 border-indigo-600 bg-indigo-500/10 rounded-xl flex items-center justify-center relative transition-transform duration-500 group-hover:scale-105 group-hover:rotate-2 group-hover:bg-indigo-500/15 shadow-inner">
                     <span class="text-xs font-mono font-bold text-indigo-700">Luas (s × s)</span>
 
                     <!-- Dimension Indicators -->
-                    <span class="absolute -bottom-5 text-[11px] font-mono text-slate-500 font-semibold">sisi (s)</span>
-                    <span class="absolute -left-6 text-[11px] font-mono text-slate-500 font-semibold -rotate-90">sisi (s)</span>
+                    <span class="absolute -bottom-6 text-[11px] font-mono text-slate-500 font-semibold">sisi (s)</span>
+                    <span class="absolute -left-10 text-[11px] font-mono text-slate-500 font-semibold -rotate-90">sisi (s)</span>
                 </div>
             </div>
 
             <div class="text-xs text-slate-500 leading-relaxed bg-slate-50 p-3.5 rounded-xl border border-slate-100">
                 <strong class="text-slate-800 block mb-1">Karakteristik Persegi:</strong>
                 <ul class="list-disc list-inside space-y-0.5">
-                    <li>Memiliki 4 sisi yang sama panjang ($s$).</li>
-                    <li>Memiliki 4 sudut siku-siku ($90^\circ$).</li>
+                    <li>Memiliki 4 sisi yang sama panjang (s).</li>
+                    <li>Memiliki 4 sudut siku-siku (90°).</li>
                 </ul>
             </div>
         </div>

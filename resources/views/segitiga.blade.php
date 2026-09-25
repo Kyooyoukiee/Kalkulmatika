@@ -160,11 +160,9 @@
 
         <div class="h-56 bg-slate-50 rounded-2xl flex items-center justify-center border border-slate-100 relative overflow-hidden group">
             <!-- Interactive Triangle SVG -->
-            <div class="relative flex flex-col items-center justify-center transition-transform duration-500 group-hover:scale-105 group-hover:rotate-1">
+            <div class="relative flex flex-col items-center justify-center transition-transform duration-500 group-hover:scale-105 ">
                 <svg class="w-44 h-36 text-emerald-600 filter drop-shadow-xs" viewBox="0 0 100 80" fill="none">
-                    <polygon points="50,10 90,70 10,70" stroke="currentColor" stroke-width="4" fill="rgba(16, 185, 129, 0.15)" stroke-linejoin="round" />
-                    <!-- Height line -->
-                    <line x1="50" y1="10" x2="50" y2="70" stroke="#059669" stroke-width="2" stroke-dasharray="3,3" />
+                    <polygon points="50,10 90,70 10,70" stroke="currentColor" stroke-width="1" fill="rgba(16, 185, 129, 0.15)" stroke-linejoin="round" />
                 </svg>
                 <span class="text-xs font-mono font-bold text-emerald-800 -mt-6">L = (a × t) / 2</span>
 
