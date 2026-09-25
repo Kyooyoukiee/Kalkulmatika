@@ -164,7 +164,6 @@
                 <svg class="w-44 h-36 text-emerald-600 filter drop-shadow-xs" viewBox="0 0 100 80" fill="none">
                     <polygon points="50,10 90,70 10,70" stroke="currentColor" stroke-width="1" fill="rgba(16, 185, 129, 0.15)" stroke-linejoin="round" />
                 </svg>
-                <span class="text-xs font-mono font-bold text-emerald-800 -mt-6">L = (a × t) / 2</span>
 
                 <!-- Dimension Indicators -->
                 <span class="text-[11px] font-mono text-slate-500 font-semibold mt-1">alas (a)</span>
