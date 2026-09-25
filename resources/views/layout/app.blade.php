@@ -42,26 +42,26 @@
                 <!-- Desktop Navigation Links -->
                 <nav class="hidden md:flex items-center gap-1">
                     <a href="{{ route('halaman_utama') }}"
-                       class="px-3.5 py-2 rounded-xl text-sm font-medium transition-all duration-200 {{ request()->routeIs('halaman_utama') ? 'bg-indigo-50 text-indigo-700 font-semibold shadow-xs' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100 hover:scale-105' }}">
+                        class="px-3.5 py-2 rounded-xl text-sm font-medium transition-all duration-200 {{ request()->routeIs('halaman_utama') ? 'bg-indigo-50 text-indigo-700 font-semibold shadow-xs' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100 hover:scale-105' }}">
                         Beranda
                     </a>
                     <a href="{{ route('halaman_persegi') }}"
-                       class="px-3.5 py-2 rounded-xl text-sm font-medium transition-all duration-200 flex items-center gap-1.5 {{ request()->routeIs('halaman_persegi') ? 'bg-indigo-50 text-indigo-700 font-semibold shadow-xs' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100 hover:scale-105' }}">
+                        class="px-3.5 py-2 rounded-xl text-sm font-medium transition-all duration-200 flex items-center gap-1.5 {{ request()->routeIs('halaman_persegi') ? 'bg-indigo-50 text-indigo-700 font-semibold shadow-xs' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100 hover:scale-105' }}">
                         <span class="w-2.5 h-2.5 rounded-xs border border-current"></span>
                         Persegi
                     </a>
                     <a href="{{ route('halaman_persegi_panjang') }}"
-                       class="px-3.5 py-2 rounded-xl text-sm font-medium transition-all duration-200 flex items-center gap-1.5 {{ request()->routeIs('halaman_persegi_panjang') ? 'bg-indigo-50 text-indigo-700 font-semibold shadow-xs' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100 hover:scale-105' }}">
+                        class="px-3.5 py-2 rounded-xl text-sm font-medium transition-all duration-200 flex items-center gap-1.5 {{ request()->routeIs('halaman_persegi_panjang') ? 'bg-indigo-50 text-indigo-700 font-semibold shadow-xs' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100 hover:scale-105' }}">
                         <span class="w-3.5 h-2 rounded-xs border border-current"></span>
                         Persegi Panjang
                     </a>
                     <a href="{{ route('halaman_segitiga') }}"
-                       class="px-3.5 py-2 rounded-xl text-sm font-medium transition-all duration-200 flex items-center gap-1.5 {{ request()->routeIs('halaman_segitiga') ? 'bg-indigo-50 text-indigo-700 font-semibold shadow-xs' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100 hover:scale-105' }}">
+                        class="px-3.5 py-2 rounded-xl text-sm font-medium transition-all duration-200 flex items-center gap-1.5 {{ request()->routeIs('halaman_segitiga') ? 'bg-indigo-50 text-indigo-700 font-semibold shadow-xs' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100 hover:scale-105' }}">
                         <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3L2 21h20L12 3z"/></svg>
                         Segitiga
                     </a>
                     <a href="{{ route('halaman_lingkaran') }}"
-                       class="px-3.5 py-2 rounded-xl text-sm font-medium transition-all duration-200 flex items-center gap-1.5 {{ request()->routeIs('halaman_lingkaran') ? 'bg-indigo-50 text-indigo-700 font-semibold shadow-xs' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100 hover:scale-105' }}">
+                        class="px-3.5 py-2 rounded-xl text-sm font-medium transition-all duration-200 flex items-center gap-1.5 {{ request()->routeIs('halaman_lingkaran') ? 'bg-indigo-50 text-indigo-700 font-semibold shadow-xs' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100 hover:scale-105' }}">
                         <span class="w-2.5 h-2.5 rounded-full border border-current"></span>
                         Lingkaran
                     </a>
@@ -81,23 +81,23 @@
         <!-- Mobile Navigation Menu -->
         <div id="mobile-menu" class="hidden md:hidden border-t border-slate-200 bg-white px-4 pt-2 pb-3 space-y-1 transition-all duration-200">
             <a href="{{ route('halaman_utama') }}"
-               class="block px-3 py-2 rounded-lg text-base font-medium {{ request()->routeIs('halaman_utama') ? 'bg-indigo-50 text-indigo-700 font-semibold' : 'text-slate-700 hover:bg-slate-100' }}">
+                class="block px-3 py-2 rounded-lg text-base font-medium {{ request()->routeIs('halaman_utama') ? 'bg-indigo-50 text-indigo-700 font-semibold' : 'text-slate-700 hover:bg-slate-100' }}">
                 Beranda
             </a>
             <a href="{{ route('halaman_persegi') }}"
-               class="block px-3 py-2 rounded-lg text-base font-medium {{ request()->routeIs('halaman_persegi') ? 'bg-indigo-50 text-indigo-700 font-semibold' : 'text-slate-700 hover:bg-slate-100' }}">
+                class="block px-3 py-2 rounded-lg text-base font-medium {{ request()->routeIs('halaman_persegi') ? 'bg-indigo-50 text-indigo-700 font-semibold' : 'text-slate-700 hover:bg-slate-100' }}">
                 Persegi
             </a>
             <a href="{{ route('halaman_persegi_panjang') }}"
-               class="block px-3 py-2 rounded-lg text-base font-medium {{ request()->routeIs('halaman_persegi_panjang') ? 'bg-indigo-50 text-indigo-700 font-semibold' : 'text-slate-700 hover:bg-slate-100' }}">
+                class="block px-3 py-2 rounded-lg text-base font-medium {{ request()->routeIs('halaman_persegi_panjang') ? 'bg-indigo-50 text-indigo-700 font-semibold' : 'text-slate-700 hover:bg-slate-100' }}">
                 Persegi Panjang
             </a>
             <a href="{{ route('halaman_segitiga') }}"
-               class="block px-3 py-2 rounded-lg text-base font-medium {{ request()->routeIs('halaman_segitiga') ? 'bg-indigo-50 text-indigo-700 font-semibold' : 'text-slate-700 hover:bg-slate-100' }}">
+                class="block px-3 py-2 rounded-lg text-base font-medium {{ request()->routeIs('halaman_segitiga') ? 'bg-indigo-50 text-indigo-700 font-semibold' : 'text-slate-700 hover:bg-slate-100' }}">
                 Segitiga
             </a>
             <a href="{{ route('halaman_lingkaran') }}"
-               class="block px-3 py-2 rounded-lg text-base font-medium {{ request()->routeIs('halaman_lingkaran') ? 'bg-indigo-50 text-indigo-700 font-semibold' : 'text-slate-700 hover:bg-slate-100' }}">
+                class="block px-3 py-2 rounded-lg text-base font-medium {{ request()->routeIs('halaman_lingkaran') ? 'bg-indigo-50 text-indigo-700 font-semibold' : 'text-slate-700 hover:bg-slate-100' }}">
                 Lingkaran
             </a>
         </div>

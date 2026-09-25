@@ -173,9 +173,6 @@
                 <p class="text-xs text-indigo-700/80 mt-0.5">Kami sedang menyiapkan fitur kalkulator keliling untuk seluruh bangun datar di atas. Stay tuned!</p>
             </div>
         </div>
-        <span class="inline-flex items-center px-3.5 py-1.5 rounded-full text-xs font-semibold bg-indigo-100 text-indigo-800 shrink-0">
-            Stay Tuned
-        </span>
     </div>
 </div>
 @endsection

@@ -177,7 +177,7 @@
             <strong class="text-slate-800 block mb-1">Karakteristik Segitiga:</strong>
             <ul class="list-disc list-inside space-y-0.5">
                 <li>Memiliki 3 sisi dan 3 titik sudut.</li>
-                <li>Total ketiga sudutnya selalu $180^\circ$.</li>
+                <li>Total ketiga sudutnya selalu 180°.</li>
             </ul>
         </div>
     </div>

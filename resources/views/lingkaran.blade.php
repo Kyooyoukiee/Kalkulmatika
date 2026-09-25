@@ -129,20 +129,19 @@
 
             <div class="h-56 bg-slate-50 rounded-2xl flex items-center justify-center border border-slate-100 relative overflow-hidden group">
                 <!-- Interactive Circle SVG -->
-                <div class="w-36 h-36 border-4 border-violet-600 bg-violet-500/10 rounded-full flex items-center justify-center relative transition-transform duration-500 group-hover:scale-105 group-hover:rotate-6 group-hover:bg-violet-500/15 shadow-inner">
+                <div class="w-36 h-36 border-2 border-violet-600 bg-violet-500/10 rounded-full flex items-center justify-center relative transition-transform duration-500 group-hover:scale-105 group-hover:bg-violet-500/15 shadow-inner">
                     <!-- Radius Line -->
                     <div class="absolute w-18 h-0.5 bg-violet-600 right-0 top-1/2 -translate-y-1/2"></div>
                     <div class="w-2.5 h-2.5 bg-violet-600 rounded-full z-10"></div>
-                    <span class="absolute top-1/2 right-4 -translate-y-4 text-[11px] font-mono text-violet-700 font-bold">r</span>
-                    <span class="text-xs font-mono font-bold text-violet-800 mt-6">L = π × r²</span>
+                    <span class="absolute top-[48%] right-4 -translate-y-4 text-[11px] font-mono text-violet-700 font-bold">r</span>
                 </div>
             </div>
 
             <div class="text-xs text-slate-500 leading-relaxed bg-slate-50 p-3.5 rounded-xl border border-slate-100">
                 <strong class="text-slate-800 block mb-1">Karakteristik Lingkaran:</strong>
                 <ul class="list-disc list-inside space-y-0.5">
-                    <li>Konstanta $\pi \approx 3.14159$ atau $\frac{22}{7}$.</li>
-                    <li>Jari-jari ($r$) adalah setengah dari diameter ($d$).</li>
+                    <li>Konstanta π ≈ 3.14159 atau 22/7.</li>
+                    <li>Jari-jari (r) adalah setengah dari diameter (d).</li>
                 </ul>
             </div>
         </div>

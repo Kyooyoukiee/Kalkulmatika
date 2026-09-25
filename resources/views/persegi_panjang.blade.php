@@ -171,8 +171,8 @@
             <div class="text-xs text-slate-500 leading-relaxed bg-slate-50 p-3.5 rounded-xl border border-slate-100">
                 <strong class="text-slate-800 block mb-1">Karakteristik Persegi Panjang:</strong>
                 <ul class="list-disc list-inside space-y-0.5">
-                    <li>Memiliki 2 pasang sisi sejajar yang sama panjang ($p$ dan $l$).</li>
-                    <li>Memiliki 4 sudut siku-siku ($90^\circ$).</li>
+                    <li>Memiliki 2 pasang sisi sejajar yang sama panjang (p dan l).</li>
+                    <li>Memiliki 4 sudut siku-siku (90°).</li>
                 </ul>
             </div>
         </div>
