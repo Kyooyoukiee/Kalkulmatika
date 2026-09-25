@@ -169,7 +169,7 @@
                 <!-- Dimension Indicators -->
                 <span class="absolute -bottom-1 text-[11px] font-mono text-slate-500 font-semibold ">alas (a)</span>
 
-                <span class="absolute right-11 top-[57%] -translate-y-1/2 rotate-90 inline-block text-[11px] font-mono text-slate-500 font-semibold whitespace-nowrap">tinggi (t)</span>
+                <span class="absolute right-11 top-[57%] -translate-y-1/2 rotate-270 inline-block text-[11px] font-mono text-slate-500 font-semibold whitespace-nowrap">tinggi (t)</span>
             </div>
         </div>
 
